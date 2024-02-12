@@ -12,4 +12,6 @@ export const options = {
     }
   };
   
+
+  export const posterCDN_URL="https://image.tmdb.org/t/p/w500"
   
