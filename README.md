@@ -3,7 +3,31 @@
 - created react app
 - Configured tailwindcss
 - Header
+- Routing
 - Login form
+- Sign Up Form
+- Form Validation
+- firebase setup
+- deploying our app to production
+- Create Sign Up user account in firebase
+- Implement sign in user Api
+- Created Redux Store with userSlice
+- Bug fix of user name and profile pic update
+- if the user is not looged in redirect the page to login page and vice versa
+- We unsubscribed to the onAuthStatusChanged callback.
+- Add hardcoded coding to the constant file.
+- Register for TMDB and create a new app and get API key
+- made an API call for now playing movies
+- Created custom hook for nowPlayingMovies
+- create movie slice
+- Update store with movies Data
+- Planning for MainContainer and SecondaryContainer
+- Fetch data for trailer video
+- Update the store with trailer video data
+- Embeded the youtube video
+- Make it autoplay and mute
+- we added tailwind classes for better UI
+- Commit changes
 
 # Features:
 
