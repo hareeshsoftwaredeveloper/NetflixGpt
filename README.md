@@ -28,6 +28,10 @@
 - Make it autoplay and mute
 - we added tailwind classes for better UI
 - Commit changes
+- Added all the movie-lists and their cards dynamically.
+- Add GPT Search feature
+- Created GPT searchBar page
+- Added Multilingual feature to the searchBar page
 
 # Features:
 
