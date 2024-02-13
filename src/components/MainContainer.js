@@ -14,7 +14,7 @@ const MainContainer = () => {
 
   const {original_title, overview}=mainMovie
   
-  // console.log(mainMovie.id)
+  
 
   return (
     <div>

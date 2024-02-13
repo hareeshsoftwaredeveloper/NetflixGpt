@@ -14,7 +14,7 @@ const SignIn = () => {
     const [signIn, setSignIn] = useState(false)
 
     const [errorMessage, setErrorMEssage]=useState(null)
-    const name=useRef()
+    const name=useRef(null)
     const email=useRef(null)
     const password=useRef(null)
 
@@ -45,7 +45,7 @@ const SignIn = () => {
                          setErrorMEssage(error.message)
                       });
     
-               console.log(user)
+               
                
 
            })
