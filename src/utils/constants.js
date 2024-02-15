@@ -19,4 +19,4 @@ export const options = {
 
 export const Language_Constants = [{ identifier: "en", name: "English" }, { identifier: "hindi", name: "Hindi" }, { identifier: "telugu", name: "Telugu" }]
 
-export const OPEN_AI_GPT_KEY="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"
+export const OPEN_AI_GPT_KEY="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"
