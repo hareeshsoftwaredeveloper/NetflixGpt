@@ -63,17 +63,17 @@ const Header = () => {
 
   return (
     
-      <div className='absolute px-8 py-2 bg-gradient-to-b from-black z-10 w-full flex justify-between'>
-      <img className='w-44' src={LOGO} alt="logo" />
+      <div className='absolute px-8 py-2 bg-gradient-to-b from-black z-10 w-full flex  flex-col md:flex-row justify-between'>
+      <img className='w-44 mx-auto md:mx-0' src={LOGO} alt="logo" />
       {user &&
-        <div className='flex p-2 items-center'>
+        <div className='flex p-2 justify-between'>
           {gptSearch &&
             <select onChange={handleSelectChange} className='py-2 pl-3 pr-1 outline-none cursor-pointer bg-gray-900 text-white m-2 rounded-lg '>
               {Language_Constants.map(lan => <option key={lan.identifier} value={lan.identifier}>{lan.name}</option>)}
             </select>
           }
           <button onClick={handleGPTSearch} className='py-2 px-4 my-2 bg-purple-800 rounded-lg mx-4 text-white'>{ gptSearch ? "Home": "GPT Search"}</button>
-          <img className='w-12 h-12 ' src={user.photoURL} alt='user-icon' />
+          <img className='w-12 h-12 hidden md:block' src={user.photoURL} alt='user-icon' />
           <button onClick={handleSignOut} className=' font-bold text-white ml-4 rounded-md border border-white px-2 py-1 text-sm'>Sign Out</button>
         </div>
       }

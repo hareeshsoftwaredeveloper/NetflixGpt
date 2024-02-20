@@ -75,9 +75,9 @@ const SignIn = () => {
       <div>
           <Header />
           <div className="absolute" >
-            <img alt="bgimage" src={bgImage} />
+            <img alt="bgimage"  className="h-screen object-cover" src={bgImage} />
           </div>
-          <form onSubmit={(e)=>e.preventDefault() } className='absolute w-3/12  bg-black my-12 mx-auto left-0 right-0 text-white px-10 pt-2 pb-14 bg-opacity-80'>
+          <form onSubmit={(e)=>e.preventDefault() } className='absolute w-full md:w-3/12  bg-black my-12 mx-auto left-0 right-0 text-white px-10 pt-2 pb-14 bg-opacity-80'>
               <h1 className='text-2xl font-bold p-2 pt-6'>{signIn ? "Sign Up" : "Sign In" }</h1>
               <div className='flex flex-col w-60'>
                   {signIn && <input type='text' ref={name} placeholder='Your Name' className='p-2 bg-gray-700 py-2 m-2 rounded-sm'/>}

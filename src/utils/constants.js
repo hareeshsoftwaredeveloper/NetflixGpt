@@ -19,4 +19,7 @@ export const options = {
 
 export const Language_Constants = [{ identifier: "en", name: "English" }, { identifier: "hindi", name: "Hindi" }, { identifier: "telugu", name: "Telugu" }]
 
-export const OPEN_AI_GPT_KEY="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"
+export const OPEN_AI_GPT_KEY="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"
+
+
+export const TMDB_MOVIE_BY_NAME_URL="https://api.themoviedb.org/3/search/movie?query="
