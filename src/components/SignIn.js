@@ -72,10 +72,10 @@ const SignIn = () => {
             }
 
   return (
-      <div>
+      <div className=''>
           <Header />
-          <div className="absolute" >
-            <img alt="bgimage"  className="h-screen object-cover" src={bgImage} />
+          <div className="absolute  " >
+            <img alt="bgimage"  className="h-screen object-cover w-[100vw]" src={bgImage} />
           </div>
           <form onSubmit={(e)=>e.preventDefault() } className='absolute w-full md:w-3/12  bg-black my-12 mx-auto left-0 right-0 text-white px-10 pt-2 pb-14 bg-opacity-80'>
               <h1 className='text-2xl font-bold p-2 pt-6'>{signIn ? "Sign Up" : "Sign In" }</h1>
